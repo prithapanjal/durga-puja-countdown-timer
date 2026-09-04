@@ -24,7 +24,8 @@ npm install
 npm start
 
 ## 📸 Preview
-Add screenshots of the app here.
+![Durga Puja Countdown](images/screenshot1.png)
+![Festival Greeting](images/screenshot2.png)
 
 ## 💡 Why I Built This
 
