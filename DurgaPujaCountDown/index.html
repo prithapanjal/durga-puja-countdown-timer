@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Durga Puja Countdown</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    
+    <div class="app">
+      <!-- Title bar -->
+      <div class="title-bar">
+        <p>🪔Durga Puja <br>Countdown</p>
+        <div class="navigation-bar">
+          <button id="minimize-btn">—</button>
+          <button id="close-btn">×</button>
+        </div>
+      </div>
+
+      <!-- Dashed line seperator -->
+       <div class="dashed-separator"></div>
+
+      <!-- Section -->
+      <main class="countdown-section">
+        <p id="message">DURGA PUJA 2026</p>
+        <div class="count-day">
+          <p id="day-count"></p>
+        </div>
+        <div class="timer">
+          <div class="time-unit"> 
+            <span class="number" id="hours">00</span> 
+            <span class="label">HOUR</span> 
+          </div> 
+          <div class="colon">:</div> 
+          <div class="time-unit"> 
+            <span class="number" id="minutes">00</span> 
+            <span class="label">MINUTE</span> 
+          </div> 
+          <div class="colon">:</div> 
+          <div class="time-unit"> 
+            <span class="number" id="seconds">00</span> 
+            <span class="label">SECOND</span> 
+          </div>
+        </div>
+        <p id="last-message"></p>
+        <button id="audio-toggle" type="button">▶</button>
+      </main>
+
+      <!-- Dashed line seperator -->
+      <div class="dashed-separator"></div>
+
+    </div>
+
+    <audio id="mahalaya-song" src="mahalaya.mp3"></audio>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
